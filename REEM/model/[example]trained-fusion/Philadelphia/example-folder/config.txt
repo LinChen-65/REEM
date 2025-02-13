@@ -1,0 +1,1 @@
+{'patience': 20, 'test_sample_time': 5, 'test_sample_proportion': 0.5, 'lr_gat': 0.0005, 'weight_decay_gat': 5e-05, 'lr_fc': 0.0005, 'weight_decay_fc': 5e-05, 'num_epochs': 200, 'MLPsize': '10,5;128,64;64,32;5+64+32,64;64+10+128+64,64,1', 'time_data': '2025-02-09_21-26-47', 'random_seed': 42, 'datasets_file': 'GNNGraph'}
