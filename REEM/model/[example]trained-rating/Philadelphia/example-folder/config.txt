@@ -1,0 +1,1 @@
+{'test_sample_time': 10, 'test_sample_proportion': 0.5, 'train_batch_size': 64, 'val_batch_size': 64, 'test_batch_size': 64, 'num_epochs': 200, 'lr_m': 1e-05, 'data_used_name': 'popu:0.5+allreview+ratings', 'datasets_file': 'allembedding&popu&rating', 'random_seed': 2024, 'weight_decay': 5e-05, 'MLPsize': '[45, 512, 128, 64, 1]', 'time_data': '2025-01-27_16-59-53'}
