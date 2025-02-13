@@ -63,13 +63,3 @@ The ```code/RE`EM/model``` directory provides examples of the following training
 **4. Neighbor-aware Mulit-view Fison**  
 - Run ```GNN-Graph.ipynb```: Collect Neighbor information.
 - Run `R&E_GNNFusion.py --city target-city`: Train the Neighbor-aware Multi-view Fusion . For reproducible results, the repository provides the model parameters for this step in ```code/RE`EM/best-model```.
-
-
-## Baseline
-
-Please download pretrained embedding model according to ```code/REEM/model_pretrain/READMD.md``` before running baseline code.
-### 1. Get Corresponding Embedding
-Please run ```python GetEmb.py --city target-city -model_name target-baseline-model --whether_load 1``` to prepare review embedding vector from different pretrained model.
-
-### 2. Train Baseline Model
-```python Baseline.py --city target-city --model_name target-baseline-model --expand 0 --input_dim 768``` 
