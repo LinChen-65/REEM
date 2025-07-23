@@ -63,3 +63,12 @@ The ```code/RE`EM/model``` directory provides examples of the following training
 **4. Neighbor-aware Mulit-view Fison**  
 - Run ```GNN-Graph.ipynb```: Collect Neighbor information.
 - Run `R&E_GNNFusion.py --city target-city`: Train the Neighbor-aware Multi-view Fusion . For reproducible results, the repository provides the model parameters for this step in ```code/RE`EM/best-model```.
+
+## Tips
+Our code only requires basic Python knowledge along with the following common libraries: pandas, numpy, pytorch, and transformers. Here are the essential references:
+
+- **Python**: [Python Documentation](https://docs.python.org/3/)
+- **Pandas**: [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
+- **Numpy**: [Numpy Documentation](https://numpy.org/doc/stable/)
+- **Pytorch**: [Pytorch Documentation](https://pytorch.org/docs/stable/index.html)
+- **Transformers**: [Transformers Documentation](https://huggingface.co/transformers/)
