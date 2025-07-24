@@ -1,9 +1,9 @@
 # Code for: Invisible Walls in Cities: Leveraging Large Language Models to Predict Urban Segregation Experience with Social Media Content
 
 ## Data-Collection
-
+<!-- 
 **Note**:   
-The repo provides processed intermediate data, you can choose to skip *1.pre-processed* and use the intermediate data directly.
+The repo provides processed intermediate data, you can choose to skip *1.pre-processed* and use the intermediate data directly. -->
 
 ### 1. pre-processed
 1. Download dataset: Considering the permission to use the raw dataset, you need to download the raw dataset according to `data/rawdata/README.md` before running the following code.
